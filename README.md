@@ -1,39 +1,20 @@
 Использование:
 Смотреть локальные снапшоты:
-
-bash
-Copy
-Edit
 rloc snapshots
+
 Смотреть файлы в последнем локальном бэкапе:
-
-bash
-Copy
-Edit
 rloc ls latest
+
 Смотреть облачные снапшоты:
-
-bash
-Copy
-Edit
 rs3 snapshots
+
 Смотреть файлы в последнем облачном бэкапе:
-
-bash
-Copy
-Edit
 rs3 ls latest
+
 Восстановить что-то локально:
-
-bash
-Copy
-Edit
 rloc restore latest --target /tmp/restore --include /etc/nginx
-Восстановить что-то из облака:
 
-bash
-Copy
-Edit
+Восстановить что-то из облака:
 rs3 restore latest --target /tmp/restore --include /etc/nginx
 
 
